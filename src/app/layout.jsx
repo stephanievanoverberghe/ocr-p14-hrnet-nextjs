@@ -1,6 +1,6 @@
 // src/app/layout.jsx
 import './globals.css';
-import Header from '../components/Header';
+import Header from '@/components/Header/Header';
 
 export const metadata = {
     title: 'HRnet - Gestion des employés',
