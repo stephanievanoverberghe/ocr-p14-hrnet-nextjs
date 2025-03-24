@@ -7,9 +7,9 @@ import { useRouter } from 'next/navigation';
 import { useState, useCallback } from 'react';
 import { useDispatch } from 'react-redux';
 import { addEmployee } from '@/store/employeeSlice';
-import CustomDatePicker from '@/components/DatePicker';
-import Dropdown from '@/components/Dropdown';
-import Modal from '@/components/Modal';
+import CustomDatePicker from '@/components/DatePicker/DatePicker';
+import Dropdown from '@/components/Dropdown/Dropdown';
+import Modal from '@/components/Modal/Modal';
 import states from '@/data/states';
 import departments from '@/data/departments';
 
